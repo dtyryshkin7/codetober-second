@@ -12,18 +12,14 @@ In this phase of our interstellar mission, you will be tasked with deploying the
 
 - Your first objective is to create a Virtual Machine in Azure. This VM will act as the central processing unit of your spacecraft, handling everything from navigation to life support systems. You can choose between any desired version of Linux or Windows if you are sure you can connect to it. Feel free to use public IP password authentication to speed up and simplify the process. 
 - Your second objective is to practice change management by resizing the Virtual Machine. Determine the current and future needs, and then change the VM size and/or disk size accordingly to either scale up for more performance or scale down to save costs. 
-
-### Hints
-
-- Try creating a VM and do change management via Azure Portal first to see the comparison with doing via Infrastructure as Code!
+- ***HINT: try creating a VM and do a change via Azure Portal first to see the comparison with doing via Infrastructure as Code!***
 
 ## Success Criteria
 
 - Your team can connect to the deployed Virtual Machine
-- ***optional*** VM's password is stored in Azure KeyVault
 - Terraform code of the virtual machine is available on your team GitHub.
 
-## Optional task
+#### If you have extra time
 
 - As an optional but highly recommended task, demonstrate your prowess in security by storing and retrieving the VM's password using Azure Key Vault. This step is crucial in safeguarding your spacecraft's core systems from unauthorized access. The Azure Key Vault will act as your encrypted command locker, ensuring that only authorized personnel can access sensitive information.
 
