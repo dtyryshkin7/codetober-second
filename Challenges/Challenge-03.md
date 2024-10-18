@@ -10,18 +10,18 @@ In this phase of our interstellar mission, you will be tasked with deploying the
 
 ## Description
 
-- Your first objective is to create a Virtual Machine in Azure. This VM will act as the central processing unit of your spacecraft, handling everything from navigation to life support systems. You can choose between any desired version of Linux or Windows if you are sure you can connect to it. Feel free to use public IP password authentication to speed up and simplify the process. 
+- Your first objective is to create a Virtual Machine in Azure. This VM will act as the central processing unit of your spacecraft, handling everything from navigation to life support systems. You can choose between any desired version of Linux or Windows. If you want, you can deploy the VM with public IP and password authentication so you can actually connect to it.
 - Your second objective is to practice change management by resizing the Virtual Machine. Determine the current and future needs, and then change the VM size and/or disk size accordingly to either scale up for more performance or scale down to save costs. 
 - ***HINT: try creating a VM and do a change via Azure Portal first to see the comparison with doing via Infrastructure as Code!***
 
 ## Success Criteria
 
-- Your team can connect to the deployed Virtual Machine
+- Each crew member has deployed a Virtual Machine using Terraform.
 - Terraform code of the virtual machine is available on your team GitHub.
 
 #### If you have extra time
 
-- As an optional but highly recommended task, demonstrate your prowess in security by storing and retrieving the VM's password using Azure Key Vault. This step is crucial in safeguarding your spacecraft's core systems from unauthorized access. The Azure Key Vault will act as your encrypted command locker, ensuring that only authorized personnel can access sensitive information.
+- As an optional but highly recommended task, demonstrate your prowess in security by storing and retrieving the VM's password using Azure Key Vault. This step is crucial in safeguarding your spacecraft's core systems from unauthorized access. The Azure Key Vault will act as your encrypted command locker, ensuring that only authorized personnel can access sensitive information. In you deployed VM with ssh key, just change the authentication method to password (example [here](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-terraform#implement-the-terraform-code)).
 
 ## Learning Resources
 
