@@ -34,9 +34,8 @@ But before we can truly settle these new worlds, **we must first establish the f
 
 - [Installing extensions to Codespaces](https://code.visualstudio.com/docs/editor/extension-marketplace#:~:text=You%20can%20browse%20and%20install,on%20the%20VS%20Code%20Marketplace.)
 - [Azure Portal](https://portal.azure.com)
-- [Authenticate to Azure with Terraform](https://learn.microsoft.com/en-us/azure/developer/terraform/authenticate-to-azure-with-service-principle?tabs=bash#specify-service-principal-credentials-in-environment-variables)
 - [Terraform Cheat Sheet](https://spacelift.io/blog/terraform-commands-cheat-sheet)
-- [Terraform project structure explained](https://spacelift.io/blog/terraform-files)
 - [Azure Terraform Provider Example - create resource group](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs#example-usage)
+- [Example - create resource group with tags](https://registry.terraform.io/providers/hashicorp/azurerm/1.42.0/docs/resources/resource_group)
 
 [Home](../README.md) - [Next Challenge >](Challenge-02.md)
